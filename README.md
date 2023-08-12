@@ -36,3 +36,24 @@ The notion of interpretability allows us to discover meaning between our input d
 If you have come up this far, there must be many questions. Now I would try to explain my chain of reasoning by answering some questions that really guided me to this idea.
 
 ## The Chain of Reasoning Questions...
+
+- ### Q1. What exactly are mental models?
+Think of mental models as someone’s thought processes or explanation of how something works in the real world. They are quite imperfect in the sense that there are many inconsistencies, but they are very useful for understanding. An analogy that helped me in understanding this goes as follows : 
+
+If you are a little familiar with Game theory, this will be a cakewalk. Game theory is a way to represent models of situations such as negotiations(read about Prisoners Dilemma), relationships, trust etc. In a sense, game theory is a mental model that encapsulates all of these situations, and we can use it to arrive at a solution(if it exists)
+
+Similarly, a machine learning model(again, to some extent) can be treated as a mental model which helps us make sense of data and relationships between them. 
+
+In our case, a mental model is a large language model which tries to make sense of the data that is given to it. It is beneficial because apart from just reading all of that data, a large language model during pre-training tries to understand complex relationships between the data that might make them “understand” it.
+
+- ### Q2. How do we know whether these mental models have learnt something or not? Is there a way to explain it?
+It’s time to learn about a good machine learning concept - Interpretability. Interpretability is a great way to understand what exactly the model is learning and justifications for it. The objective function with which the model is pre-trained, cannot accurately capture the real-world costs associated with model decisions.
+
+In our case, we can draw parallels between the model’s interpretability and the advanced civilization’s interpretability of the data we send. There are several standard ways to deduce model interpretability such as  using Shapley values, or LIME. This interpretability data can go a long way in understanding how we can deduce what data to send, and maybe can tailor different versions of the same data for different levels of civilization.   
+
+- ### Q3. Were the compression techniques used in the Golden Record too much? We might have had a better chance with images, texts, and audio?
+The encoding techniques(converting all of the images, text, audio into audio signals) for the golden record are not really generalizable techniques to represent information, at least in my opinion. What if the ‘advanced’ civilizations are in their stone age era, and the best use of the golden record is perhaps using it as a weapon or a plate(however bad that it may sound, that could be one of the possibilities). We can’t just send them a USB drive for the same reason. How we should send those data is not something that this project aims to explain. I am working on interpreting what the other civilization might interpret our data, so that we can send actually useful data into the cosmos. 
+
+Maybe having a mathematical representation of these data is a step to understand the mental model of the other civilization.
+
+### More Questions Will Follow
